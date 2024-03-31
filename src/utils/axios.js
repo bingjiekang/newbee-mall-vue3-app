@@ -14,7 +14,7 @@
  console.log('import.meta.env', import.meta.env)
  
  // 登陆 注册界面重要链接
- axios.defaults.baseURL = import.meta.env.MODE == 'development' ? '//127.0.0.1:8080/api/v1' : '//127.0.0.1:8080/api/v1'
+ axios.defaults.baseURL = import.meta.env.MODE == 'development' ? '//140.83.37.178:8080/api/v1' : '//140.83.37.178:8080/api/v1'
  axios.defaults.withCredentials = true
  axios.defaults.headers['X-Requested-With'] = 'XMLHttpRequest'
  axios.defaults.headers['token'] = localStorage.getItem('token') || ''
