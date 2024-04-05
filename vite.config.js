@@ -11,7 +11,11 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    Components({ resolvers: [VantResolver()] })
+    Components({ resolvers: [VantResolver(
+      {
+        importStyle:false,
+      }
+    )] })
   ],
   resolve: {
     alias: {

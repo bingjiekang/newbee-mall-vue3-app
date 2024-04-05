@@ -5,7 +5,7 @@ import { ActionBar, ActionBarIcon, ActionBarButton, Divider, Popup, Overlay, Loa
 import App from './App.vue'
 import router from './router'
 import 'lib-flexible/flexible'
-
+import 'vant/lib/index.css'
 import './assets/main.css'
 import './common/style/theme.css'
 import 'vant/es/toast/style'
